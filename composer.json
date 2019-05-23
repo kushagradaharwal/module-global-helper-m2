@@ -5,20 +5,20 @@
         "magento/framework": "0.1.*"
     },
     "type": "magento2-module",
-    "version": "0.2.0",
-    "extra": {
-        "map": [
-            [
-                "*",
-                "Smj/ComposerOne"
-            ]
-        ]
-    },
+    "version": "1.0.0",
+    "license": "Open Source License",
     "authors": [
         {
             "name": "Kushagra Daharwal",
             "homepage": "http://daharwal.wordpress.com/",
             "role": "Developer"
         }
-    ]
+    ],
+    "autoload": {
+    "files": [
+      "registration.php"
+    ], "psr-4": {
+      "Smj\\ComposerOne\\": ""
+    }
+   }
 }
