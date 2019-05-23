@@ -2,7 +2,8 @@
     "name": "kushhot/module-global-helper-m2",
     "description": "Helper module for using to use global methods",
     "require": {
-        "magento/framework": "0.1.*"
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/framework": "~100.0.4"
     },
     "type": "magento2-module",
     "version": "1.0.0",
@@ -13,6 +14,7 @@
             "role": "Developer"
         }
     ],
+    "minimum-stability": "stable",
     "autoload": {
     "files": [
       "registration.php"
