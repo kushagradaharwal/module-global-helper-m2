@@ -14,7 +14,7 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "alpha",
     "autoload": {
     "files": [
       "registration.php"
