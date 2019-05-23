@@ -7,6 +7,8 @@
     },
     "type": "magento2-module",
     "version": "1.0.0",
+    "minimum-stability": "dev",
+    "prefer-stable" : true
     "authors": [
         {
             "name": "Kushagra Daharwal",
@@ -14,7 +16,6 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "alpha",
     "autoload": {
     "files": [
       "registration.php"
