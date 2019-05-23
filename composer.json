@@ -1,0 +1,24 @@
+{
+    "name": "kushhot/module-global-helper-m2",
+    "description": "Helper module for using to use global methods",
+    "require": {
+        "magento/framework": "0.1.*"
+    },
+    "type": "magento2-module",
+    "version": "0.2.0",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Smj/ComposerOne"
+            ]
+        ]
+    },
+    "authors": [
+        {
+            "name": "Kushagra Daharwal",
+            "homepage": "http://daharwal.wordpress.com/",
+            "role": "Developer"
+        }
+    ]
+}
