@@ -2,7 +2,7 @@
     "name": "kushhot/module-global-helper-m2",
     "description": "Helper module for using to use global methods",
     "require": {
-        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0",
         "magento/product-community-edition": "2.1.11"
     },
     "type": "magento2-module",
